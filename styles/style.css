@@ -13,3 +13,43 @@
   --satoshi: satoshi;
   --inter: inter;
 }
+
+/* Header */
+.header {
+}
+.header__content {
+  padding: 32px 38px 32px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__content-logo {
+  
+}
+.header__btn {
+}
+.header__btn-link {
+  font-family: var(--inter);
+  font-size: 18px;
+  line-height: 130%;
+  color: #242424;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+.header__btn-icon {
+  margin-left: 10px;
+}
+.header-bg {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .header__content {
+    padding: 32px;
+    flex-direction: column;
+  }
+  .header__btn {
+    margin-top: 15px;
+  }
+}
