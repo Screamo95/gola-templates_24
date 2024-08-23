@@ -1,0 +1,15 @@
+/* Global */
+* {
+  box-sizing: border-box;
+}
+:root {
+	--text-default: #000;
+	--text-muted: rgba(25, 25, 25, 0.7);
+	--text-inverse: #fff;
+	--background-muted: #f8f8f8;
+	--background-primary: #d2f65a;
+	--background-secondary: #000;
+	--border-default: #e8e8e8;
+  --satoshi: satoshi;
+  --inter: inter;
+}
