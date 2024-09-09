@@ -47,6 +47,10 @@
     max-width: 500px;
     margin: 0 auto;
   }
+  .global-title {
+    text-align: center;
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 550px) {
   .global__container {
@@ -203,8 +207,216 @@
   }
   .started__box-txt {
     text-align: justify;
+    font-size: 16px;
   }
   .started__box__btn {
     justify-content: center;
+  }
+}
+
+/* Webflow */
+.webflow {
+  padding-top: 80px;
+}
+.webflow-title {
+  font-family: var(--inter);
+  font-size: 40px;
+  line-height: 130%;
+  color: #242424;
+  margin-bottom: 39px;
+  letter-spacing: 0.5px;
+}
+.framer-title {
+  margin-bottom: 40px;
+}
+.webflow__box {
+  display: flex;
+  align-items: center;
+  padding: 48px 48px 48px 48px;
+  background: var(--background-muted);
+}
+.webflow__box-icon {
+  width: 80px;
+  height: 80px;
+  margin-right: 32px;
+}
+.webflow__content {
+  margin-right: 80px;
+}
+.framer__content {
+  margin-right: 95px;
+}
+.webflow__content-name {
+  font-family: var(--inter);
+  font-size: 26px;
+  line-height: 130%;
+  color: #242424;
+  margin-bottom: 4px;
+  letter-spacing: 0.2px;
+}
+.webflow__content-txt {
+  font-family: var(--inter);
+  font-size: 18px;
+  line-height: 160%;
+  color: #242424;
+  letter-spacing: 0.2px;
+}
+.webflow__btn_zero {
+  display: flex;
+  margin-right: 26px;
+  height: 64px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.webflow__btn_zero-link {
+  font-family: var(--inter);
+  font-size: 18px;
+  line-height: 130%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #242424;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.webflow__btn_zero-icon {
+  width: 13px;
+  height: 13px;
+}
+.webflow__btn_blue {
+  border-radius: 4px;
+  padding: 20px 24px;
+  width: 193px;
+  height: 64px;
+  background: #4353ff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.webflow__btn_blue-link {
+  font-family: var(--inter);
+  font-size: 18px;
+  line-height: 130%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--text-inverse);
+  margin-right: 18px;
+}
+.webflow__btn_blue-icon {
+  width: 13px;
+  height: 13px;
+}
+.webflow__btn_black {
+  border-radius: 4px;
+  padding: 20px 24px;
+  width: 193px;
+  height: 64px;
+  background: var(--text-default);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .webflow__box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .webflow__content {
+    margin-right: 0px;
+  }
+  .framer__content {
+    margin-right: 0px;
+  }
+  .webflow__btn_blue {
+    margin-top: 20px;
+  }
+  .webflow__btn_black {
+    margin-top: 20px;
+  }
+  .webflow__btn_zero {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .webflow__box-icon {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .webflow__content-name {
+    text-align: center;
+  }
+  .webflow-title {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .webflow__btn_zero {
+    margin-right: 0px;
+  }
+  .webflow-title {
+    font-size: 30px;
+  }
+}
+
+/* License */
+.license {
+  padding: 80px 0;
+}
+.license__info-icon {
+}
+.license__info-txt {
+  font-family: var(--inter);
+  font-size: 18px;
+  line-height: 160%;
+  color: #242424;
+}
+
+@media screen and (max-width: 550px) {
+  .license__info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .license__info-txt {
+    text-align: justify;
+    font-size: 16px;
+  }
+}
+
+/* Footer */
+.footer {
+  background: #f6f6f6;
+  padding: 32px 38px 32px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+  width: 186px;
+  height: 25px;
+}
+.footer__btn {
+}
+.footer__btn-link {
+  font-family: var(--inter);
+  font-size: 20px;
+  line-height: 130%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #242424;
+  margin-right: 8px;
+  letter-spacing: 0.4px;
+}
+.footer__btn-icon {
+  width: 13px;
+  height: 13px;
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
